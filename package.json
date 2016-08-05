@@ -42,9 +42,11 @@
   "homepage": "https://github.com/GuoYongfeng/webpack-dev-boilerplate#readme",
   "dependencies": {
     "better-npm-run": "0.0.8",
-    "bootstrap": "^3.3.6",
+    "bootstrap": "^3.3.7",
+    "history": "^3.0.0",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-router": "^2.6.1"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
