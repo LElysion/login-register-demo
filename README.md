@@ -4,6 +4,10 @@
 
 **Features：**
 
+- 支持React-Redux
+- 支持React-Router
+- 支持Node.js作为服务器
+- 支持MongoDB作为数据库
 - 可以解析JSX语法
 - 可以解析ES6语法新特性
 - 支持LESS预处理器
@@ -20,10 +24,7 @@
 - 可以进行代码规则校验
 - 支持mocha测试用例运行
 - 支持一行命令产出待部署资源
-- 支持React-Redux
-- 支持React-Router
-- 支持Node.js作为服务器
-- 支持MongoDB作为数据库
+
 
 ## 1. start
 
@@ -48,7 +49,7 @@ $ node app.js
 - [x] [Webpack](https://webpack.github.io)
 - [x] [React](https://facebook.github.io/react/)
 - [x] [ES6](http://es6.ruanyifeng.com/)
-- [ ] [Redux](https://github.com/rackt/redux)
+- [x] [Redux](https://github.com/rackt/redux)
 - [x] [React-router](https://github.com/rackt/react-router-redux)
 - [x] [Babel](https://babeljs.io/)
 - [ ] [Autoprefixer](https://github.com/postcss/autoprefixer)
