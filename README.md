@@ -1,6 +1,6 @@
-# 基于React + Webpack + Babel的项目脚手架
+# 基于React + Node + MongoDB的项目脚手架
 
-> 这个脚手架工程模板用于快速启动基于React + Webpack为技术栈的前端项目
+> 这个脚手架工程模板用于快速启动基于React + Redux + Node + MongoDB + Webpack为技术栈的前端项目
 
 **Features：**
 
@@ -20,36 +20,28 @@
 - 可以进行代码规则校验
 - 支持mocha测试用例运行
 - 支持一行命令产出待部署资源
+- 支持React-Redux
+- 支持React-Router
+- 支持Node.js作为服务器
+- 支持MongoDB作为数据库
 
 ## 1. start
 
 ```
-$ git clone git@github.com:GuoYongfeng/webpack-dev-boilerplate.git
-$ cd webpack-dev-boilerplate
+$ git clone git@github.com:LElysion/react-demo.git
+$ cd node-mongo-demo
 $ npm install
 ```
 ## 2. dev
 ### 2.1 开发调试
 ```
+启动MongoDB
 $ npm run dev
+$ node app.js
 ```
 
 查看效果` http://127.0.0.1:8080`
 
-### 2.2 代码检查
-```
-$ npm run lint
-```
-
-### 2.3 测试用例
-```
-$ npm run test:watch
-```
-
-### 2.4 产出资源
-```
-$ npm run build
-```
 
 ## 3. 技术栈
 
