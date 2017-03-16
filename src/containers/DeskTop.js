@@ -18,8 +18,8 @@ class DeskTop extends Component {
 		return (
 			<div>
 				<header>
-					<Link to='/about'>about</Link>
 					<Link to='/'>home</Link>
+					<Link to='/about'>about</Link>
 				</header>
 				{ this.props.children }
 			</div>
