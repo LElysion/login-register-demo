@@ -1,0 +1,24 @@
+.navlink{
+	color: #FFF;
+	font-size: 32px;
+	text-align: center;
+}
+
+.login{
+	color: #000;
+	font-size: 16px;
+	padding: 15px;
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top:35px;
+	right: 8px;
+}
+
+.hide{
+	display: none;
+}
+
+.new{
+	display: inline-block;
+}

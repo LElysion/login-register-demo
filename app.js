@@ -15,7 +15,7 @@ global.app = express()
 console.log('connecting database...')
 
 global.db = null
-var dbn = 'todo'
+var dbn = 'knows'
 
 MongoClient.connect('mongodb://localhost:27017/'+dbn,function(err, instance){
 	if(err!=null){
@@ -38,15 +38,15 @@ MongoClient.connect('mongodb://localhost:27017/'+dbn,function(err, instance){
 	//app.use(cookieParser()) /*????*/
 
 	app.use(session({ //配置session
-		secret: 'todo',
-		name: 'todo',
+		secret: 'knows',
+		name: 'knows',
 		resave: false,
 		saveUninitialized: false,
 		store: new MongoStore({
 			host: '127.0.0.1',
 			port: '27017',
 			db: 'sessions',
-			url: 'mongodb://localhost:27017/todo'
+			url: 'mongodb://localhost:27017/knows'
 		})
 	}))
 	console.log('starting http...')

@@ -70,6 +70,20 @@ module.exports = {
           loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
         },
         {
+          test: /\.(js|jsx)$/,
+          exclude:/node_modules/,
+          loader: 'babel',
+          query: {
+            presets: ['react', 'es2015', 'stage-0'],
+            plugins: [
+              ['import',{
+                libraryName: 'antd',
+                style: 'css'
+              }]
+            ]
+          }
+        },
+        {
           test: /\.(png|jpg)$/,
           loader: 'url?limit=8192'
         },

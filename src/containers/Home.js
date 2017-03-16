@@ -10,23 +10,13 @@ class Home extends Component {
 	}
 
 	componentWillMount(){
-		const { ToDoo } = this.props
-		ToDoo()
 	}
 
 	render(){
-		var { todo } = this.props
 		return (
 
 			<div>
-				<ToDoo />
-				{
-					todo.list.map( t=>{
-						return (
-							<h3 key={t._id}>{t.text}</h3>
-						)
-					})
-				}
+					Home
 			</div>
 		)
 	}
@@ -40,7 +30,6 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
     return bindActionCreators({   
-        ToDoo: addTextAction
     }, dispatch)
 }
 
